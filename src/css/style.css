@@ -1,5 +1,46 @@
+.contenedor-nav{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-nav a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.titulo-ppal{
+    text-align: center;
+    font-weight: bold;
+}
+
+body{
+    background-color: grey;
+}
+
 h1{
     text-align: center;
     color:blue;
     text-transform: capitalize;
+}
+
+p{
+
+}
+
+#parrafo-1{
+    color:yellow;
+}
+
+#parrafo-2{
+    color:blue
+}
+
+#parrafo-3{
+    color:red;
+}
+
+.transformarTextoEnMayuscula{
+    text-transform: uppercase;
 }

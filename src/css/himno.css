@@ -1,0 +1,64 @@
+html{
+    background-color: #34495E ;
+}
+.contenedor-nav{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-ppal{
+
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.contenedor-ppal article{
+    padding: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.contenedor-nav a{
+    color: black;
+    text-decoration: none;
+
+}
+
+main{
+    flex-grow: 1;
+}
+section{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section article{
+    flex: 1 1 200px;
+}
+
+article h2{
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+}
+
+.titulo-ppal{
+    text-align: center;
+    font-weight: bold;
+}
+
+article{
+    background-color: #BFC9CA;    
+}
+
+.amarillo {
+    color: yellow;
+}
+.azul {
+    color:blue;
+}
+.rojo{
+    color: red;
+}
