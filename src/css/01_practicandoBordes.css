@@ -1,0 +1,48 @@
+.titulo-ppal{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+figure img{
+    margin: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    height: auto; 
+}
+
+#figura-1 img{
+    border: 15px outset palevioletred
+}
+
+#figura-2 img{
+    border: 5px dotted peru;
+}
+
+#figura-3 img{
+    border: 25px dashed palegreen;
+}
+
+#figura-4 img{
+    border: 10px double rgb(18, 51, 235);
+}
+
+#figura-5 img{
+    border-top-width: 20px;
+    border-top-color: aqua;
+    border-top-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: aquamarine;
+    border-bottom-style: dotted;
+    border-left-width: 40px;
+    border-left-color: rgb(49, 20, 209);
+    border-left-style: solid;
+    border-right-width: 40px;
+    border-right-color: rgb(36, 83, 21);
+    border-right-style: solid;
+}
